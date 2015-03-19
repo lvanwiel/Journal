@@ -32,7 +32,7 @@ h3 {
 Heading
 *****************/
 header {
-  float: left;
+  float: right;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
@@ -58,13 +58,20 @@ h2 {
   font-weight: normal;
 }
 
+h4 {
+  font-size: 1 em;
+  text-align: center;
+  margin: 10px;
+
+}
+
 /*****************
 Navigation
 *****************/
 
 h3 {
   font-size: 2em;
-  text-align: right;
+  text-align: center;
   margin: 20px 30px 10px;
 
 
@@ -145,6 +152,16 @@ page: portfolio
   color: black;
 }
 
+#d2{
+  float: right;
+  list-style: none;
+}
+
+#d2 li a p{
+  margin:0;
+  font-size: .75em;
+
+}
 /*****************
 page: about
 *****************/
