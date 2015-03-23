@@ -7,7 +7,7 @@ body {
 
 
 
-#wrapper {
+.today {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
@@ -98,6 +98,36 @@ nav a {
   padding: 15px 10px;
 }
 
+
+/*****************
+body
+*****************/
+section p {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+div {
+  display: inline-block;
+
+}
+
+div p {
+  /*border-style: dotted;*/
+  border-color: black;
+  width: 50%;
+
+
+}
+
+
+.evero {
+  background-size: 10%;
+  border-style: solid;
+  float: right;
+}
+
+
 /*****************
 footer
 *****************/
@@ -122,7 +152,7 @@ page: about
 
 .profile-photo {
   display: block;
-  max-width: 150px;
+  max-width: 100px;
   margin: 0 auto 30px;
   border-radius: 50%
 }
@@ -138,26 +168,28 @@ page: portfolio
 
 #gallery li {
   float: left;
-  width 45%;
+  width 80%;
   margin: 2.5%;
-  background-color: #f5f5f5;
+  background-color: white;
   color: black;
 }
 
-#gallery li a p {
+/*#gallery  p {
   float: right
+  width 70%
   margin: 0;
   padding: 5%;
   font-size: .75em;
   color: black;
-}
+}*/
 
-#d2{
+.d2 {
   float: right;
   list-style: none;
+  background-size: 50%;
 }
 
-#d2 li a p{
+.d2 li a p{
   margin:0;
   font-size: .75em;
 
@@ -166,12 +198,12 @@ page: portfolio
 page: about
 *****************/
 
-.profile-photo {
+/*.profile-photo {
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
-}
+}*/
 
 /*****************
 page: contact
@@ -221,7 +253,8 @@ h1,h2 {
 }
 /*links*/
 a {
-  color: #6ab47b;
+  color: black;
+  style: bold;
 }
 /*nav links*/
 nav a, nav a:visited {
