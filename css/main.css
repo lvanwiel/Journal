@@ -8,7 +8,8 @@ body {
 
 
 .today {
-  max-width: 940px;
+  list-style: none;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -93,10 +94,17 @@ nav li {
   display: inline-block;
 }
 
+
+}
 nav a {
   font-weight: 800;
   padding: 15px 10px;
 }
+
+nav p {
+  list-style: none;
+}
+
 
 
 /*****************
@@ -112,8 +120,8 @@ div {
 
 }
 
+
 div p {
-  /*border-style: dotted;*/
   border-color: black;
   width: 50%;
 
@@ -122,10 +130,25 @@ div p {
 
 
 .evero {
-  background-size: 10%;
+  boder: dotted;
+  width: 300px;
   border-style: solid;
   float: right;
 }
+
+.bun {
+  boder: dotted;
+  border-style: solid;
+  float: right;
+}
+
+.work {
+  boder: dotted;
+  width: 300px;
+  border-style: solid;
+  float: right;
+}
+
 
 
 /*****************
@@ -159,6 +182,7 @@ page: about
 /*****************
 page: portfolio
 *****************/
+
 #gallery {
 
   margin: 0;
@@ -168,20 +192,12 @@ page: portfolio
 
 #gallery li {
   float: left;
-  width 80%;
+  width 100%;
   margin: 2.5%;
   background-color: white;
   color: black;
 }
 
-/*#gallery  p {
-  float: right
-  width 70%
-  margin: 0;
-  padding: 5%;
-  font-size: .75em;
-  color: black;
-}*/
 
 .d2 {
   float: right;
@@ -193,6 +209,27 @@ page: portfolio
   margin:0;
   font-size: .75em;
 
+}
+
+#eat {
+  list-style: none;
+}
+
+.d3 {
+  float: right;
+  list-style: none;
+  background-size: 50%;
+
+}
+
+.d3 p{
+  /*float: right;*/
+  margin: right 70px;
+}
+.work {
+  margin: 15px;
+  float: left;
+  width: 500px;
 }
 /*****************
 page: about
